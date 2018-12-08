@@ -48,7 +48,7 @@ namespace laserpants
     {
     public:
         template <typename Lam>
-        task(Lam lambda);
+        explicit task(Lam lambda);
 
         task(const task&) = delete;
         task operator=(const task&) = delete;
