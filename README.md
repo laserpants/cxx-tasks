@@ -10,7 +10,7 @@ int main()
         return 100; 
     }).then([](int n) {
         return std::to_string(n);
-    }).then([](std::string str) {
+    }).then([](const std::string& str) {
         std::cout << str << std::endl;
         return std::atoi(str.c_str());
     }).then([](int n) {
