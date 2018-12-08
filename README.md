@@ -1,6 +1,6 @@
 # cxx-tasks
 
-```
+```cxx
 #include <iostream>
 #include "task.h"
 
